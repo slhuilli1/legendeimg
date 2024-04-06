@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0" type="plugin" group="content" method="upgrade">
+    <name>Legende image depuis le tag alt</name>
+    <author>Sébastien LHUILLIER</author>
+    <creationDate>May 2015</creationDate>
+    <copyright></copyright>
+    <license></license>
+    <authorEmail>sebastien.lhuillier+joomla@gmail.com</authorEmail>
+    <authorUrl>www.sebastien-lhuillier.com</authorUrl>
+    <version>1.0</version>
+    <description>
+        Ajoute le contenu de la balise ALT comme une légende à l'image !
+    </description>
+    <files>
+        <filename>legendeimg.xml</filename>
+        <filename plugin="legendeimg">legendeimg.php</filename>
+    </files>
+    <config>
+    </config>
+</extension>
